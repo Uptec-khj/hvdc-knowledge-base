@@ -1,0 +1,14 @@
+.obsidian/workspace*
+.obsidian/cache
+.trash/
+Private/
+95_Attachments/PDFs/
+95_Attachments/Figures/
+95_Attachments/Data/
+*.pdf
+*.doc
+*.docx
+*.hwp
+*.hwpx
+.DS_Store
+Thumbs.db
