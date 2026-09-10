@@ -2,7 +2,7 @@
 type: dashboard
 status: ready
 created: 2026-09-09
-updated: 2026-09-09
+updated: 2026-09-10
 tags: [hvdc]
 ---
 
@@ -16,9 +16,11 @@ tags: [hvdc]
 |---|---:|---:|
 | 고유 문헌 선별 | 24건 | 4건 |
 | 논문 정독 | 12편 | 0편 |
-| checked 근거 | 24개 | 0개 |
+| checked 근거 | 24개 | 2개 |
 | reviewed 종합 | 3개 | 0개 |
 | 후속 질문 | 3개 | 0개 |
+
+보조 지표: 지정 범위를 정독한 공식 보고서 **1건**. 보고서 정독은 12주 목표의 “논문 정독”에 합산하지 않습니다.
 
 ## 현재 파일럿
 
@@ -26,17 +28,25 @@ tags: [hvdc]
 - 상태: `active`
 - 주축: 인터페이스·시험방법
 - 인접 범위: 제어·보호 성능 중 인터페이스·시험 판정에 필요한 조건
-- 첫 정독 우선순위: [[30_Literature/P-2026-003 InterOPERA D1.3 다중 벤더 EMT 상호작용 연구 절차]]
+- 정독 완료 공식 보고서: [[30_Literature/P-2026-003 InterOPERA D1.3 다중 벤더 EMT 상호작용 연구 절차]]
+- 다음 정독: [[30_Literature/P-2026-001 InterOPERA D1.1 모델과 C&P 큐비클 요구사항]]
 
 ## 1차 선별 문헌
 
-1. [[30_Literature/P-2026-001 InterOPERA D1.1 모델과 C&P 큐비클 요구사항]]
-2. [[30_Literature/P-2026-002 InterOPERA D1.2 오프라인·실시간 플랫폼 요구사항]]
-3. [[30_Literature/P-2026-003 InterOPERA D1.3 다중 벤더 EMT 상호작용 연구 절차]]
-4. [[30_Literature/P-2026-004 InterOPERA D2.1 HVDC 시스템·서브시스템 기능 요구사항]]
+1. [[30_Literature/P-2026-001 InterOPERA D1.1 모델과 C&P 큐비클 요구사항]] — `screened`
+2. [[30_Literature/P-2026-002 InterOPERA D1.2 오프라인·실시간 플랫폼 요구사항]] — `screened`
+3. [[30_Literature/P-2026-003 InterOPERA D1.3 다중 벤더 EMT 상호작용 연구 절차]] — `reviewed` (지정 범위; 부록 사례 계산 제외)
+4. [[30_Literature/P-2026-004 InterOPERA D2.1 HVDC 시스템·서브시스템 기능 요구사항]] — `screened`
 
 > [!warning]
-> 네 건은 선별 후보다. 원문 정독 0편, checked 근거 0개, reviewed 종합 0개이며 보고서의 요구나 결과를 아직 검증된 결론으로 사용하지 않는다.
+> 선별 4건은 모두 공식 프로젝트 보고서입니다. 논문 정독은 0편입니다. D1.3에서 원문 위치를 대조한 근거 2개를 만들었지만, 서로 다른 자료의 비교가 없어 SYN-001은 `draft`이고 종합 실적은 0개입니다.
+
+## 현재 근거
+
+1. [[40_Evidence/E-2026-001 단독 시험과 시스템 상호작용 연구는 목적을 분리한다]]
+2. [[40_Evidence/E-2026-002 모델 공유 계약은 사용 경계와 black-box 보호를 정의한다]]
+
+두 카드 모두 D1.3의 절차 권고에서 나온 근거입니다. 다중 출처 합의나 정량 성능 결과로 확대하지 않습니다.
 
 ## 지금 볼 문서
 

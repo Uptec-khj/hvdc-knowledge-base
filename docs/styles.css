@@ -51,6 +51,8 @@ h1 span { color: var(--cyan); }
 h2 { margin: 0; font-size: clamp(32px, 4vw, 48px); line-height: 1.15; letter-spacing: -.04em; }
 .section-heading > p { max-width: 500px; margin: 0; color: var(--muted); }
 .metrics { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--line); background: white; }
+.research-note { margin: 16px 0 0; color: var(--muted); font-size: 14px; }
+.research-note strong { color: var(--ink); }
 .metric { padding: 28px; border-right: 1px solid var(--line); }
 .metric:last-child { border: 0; }
 .metric > span { color: var(--muted); font-size: 14px; }
